@@ -7,6 +7,6 @@
 
 1.pip install requests
 
-3.python3 TongdaOA.py
+2.python3 TongdaOA.py
 
 
