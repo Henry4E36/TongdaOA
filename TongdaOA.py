@@ -1,6 +1,6 @@
 import requests
 import sys
-import time
+# import time
 
 def title():
     print('+**********************************************************************+')
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     target_url = str(input("+*【请输入URL】*+:"))
     print()
     #遍历UID值 范围可以自己修改
-    for i in range(1,100):
+    for i in range(1,1000):
         uid=i
         # time.sleep(1)
         Target_URL(target_url,uid)
